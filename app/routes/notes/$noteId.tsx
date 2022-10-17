@@ -37,9 +37,15 @@ export default function NoteDetailsPage() {
       <Form method="post">
         <button
           type="submit"
-          className="rounded bg-blue-500  py-2 px-4 text-white hover:bg-blue-600 focus:bg-blue-400"
+          className="rounded bg-red-500  py-2 px-4 text-white hover:bg-red-600 focus:bg-red-400"
         >
           Delete
+        </button>
+        <button
+          type="submit"
+          className="mx-4 rounded  bg-blue-500 py-2 px-4 text-white hover:bg-blue-600 focus:bg-blue-400"
+        >
+          Update
         </button>
       </Form>
     </div>
